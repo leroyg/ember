@@ -1,50 +1,26 @@
 # Space-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An exploration into Ember (using ember-cli)
 
-## Prerequisites
+## Show Notes (links)
 
-You will need the following things properly installed on your computer.
+* [Rails + Ember.js](https://www.devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux)
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* [Ember guides](http://emberjs.com/guides/models/defining-models/)
+* [RubyOnRails+Ember](http://www.slideshare.net/jks8787/rubyonrailsandembercli)
+* [heroku buildpack for ember-cli](https://github.com/tonycoco/heroku-buildpack-ember-cli)
 
-## Installation
+* [CodeSchool Ember](https://www.codeschool.com/courses/warming-up-with-ember-js)
+* [ember-cli.com](http://www.ember-cli.com/#showcase)
+* [EasyForm](https://github.com/dockyard/ember-easyForm)
+* [ember-cli-bootstrap-sass](https://www.npmjs.com/package/ember-cli-bootstrap-sass)
+* [ember-cli-cordova](https://www.npmjs.com/package/ember-cli-cordova)
+* [emberaddons.com](http://www.emberaddons.com)
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+## How to run this one thing
 
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+1. clone xyz
+2. run that rails app `rails s`
+3. clone this
+4. run this app `ember server`
+5. Visit `http://localhost:4200`

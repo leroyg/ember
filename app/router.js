@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+
+  this.resource('robots');
+  this.resource('robot', { path: 'robots/:id' });
 });
 
 export default Router;

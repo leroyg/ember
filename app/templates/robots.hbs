@@ -1,0 +1,17 @@
+<div class="row">
+{{#link-to "index"}}Home{{/link-to}}
+
+Hi, I am in Robot
+</div>
+
+
+{{#each robot in model}}
+
+<div class="thumbnail col-sm-3">
+  {{robot.name}}
+  <img {{bind-attr src="robot.photo" }}/>
+
+  {{#link-to "robot" robot}} View {{/link-to}}
+
+</div>
+{{/each}}

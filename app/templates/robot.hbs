@@ -1,0 +1,28 @@
+I am a robot (singlular).
+
+
+{{name}}
+<img {{bind-attr src="photo" }}/>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Song</th>
+      <th>Dance</th>
+      <th>Location</th>
+      <th>Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each mission in missions}}
+    <tr>
+      <td>{{mission.song}}</td>
+      <td>{{mission.dance}}</td>
+      <td>{{mission.location}}</td>
+      <td>{{mission.completed}}</td>
+    </tr>
+  {{/each}}
+
+</tbody>
+</table>
