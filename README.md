@@ -19,7 +19,7 @@ An exploration into Ember (using ember-cli)
 
 ## How to run this one thing
 
-1. clone xyz
+1. clone [tiy-houston-q4-rails/space_robots](https://github.com/tiy-houston-q4-rails/space_robots)
 2. run that rails app `rails s`
 3. clone this
 4. run this app `ember server`
